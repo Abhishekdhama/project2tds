@@ -1,0 +1,257 @@
+[
+    {
+        "question": "Install and run Visual Studio Code. In your Terminal (or Command Prompt), type code -s and press Enter. Copy and paste the entire output below. What is the output of code -s?",
+        "answer": ""
+    },
+    {
+        "question": "Running uv run --with httpie -- https [URL] installs the Python package httpie and sends a HTTPS request to the URL. Send a HTTPS request to https://httpbin.org/get with the URL encoded parameter email set to 23f2000762@ds.study.iitm.ac.in. What is the JSON output of the command? (Paste only the JSON body, not the headers)",
+        "answer": ""
+    },
+    {
+        "question": "Let's make sure you know how to use npx and prettier. Download . In the directory where you downloaded it, make sure it is called README.md, and run npx -y prettier@3.4.2 README.md | sha256sum. What is the output of the command?",
+        "answer": ""
+    },
+    {
+        "question": "Let's make sure you can write formulas in Google Sheets. Type this formula into Google Sheets. (It won't work in Excel) =SUM(ARRAY_CONSTRAIN(SEQUENCE(100, 100, 15, 8), 1, 10)). What is the result?",
+        "answer": ""
+    },
+    {
+        "question": "Let's make sure you can write formulas in Excel. Type this formula into Excel. Note: This will ONLY work in Office 365. =SUM(TAKE(SORTBY({11,8,9,4,0,1,5,5,0,0,11,0,11,9,4,9}, {10,9,13,2,11,8,16,14,7,15,5,4,6,1,3,12}), 1, 13)). What is the result?",
+        "answer": ""
+    },
+    {
+        "question": "Just above this paragraph, there's a hidden input with a secret value. What is the value in the hidden input?",
+        "answer": ""
+    },
+    {
+        "question": "How many Wednesdays are there in the date range 1987-02-02 to 2013-11-05?",
+        "answer": ""
+    },
+    {
+        "question": "Download and unzip file which has a single extract.csv file inside. What is the value in the \"answer\" column of the CSV file?",
+        "answer": ""
+    },
+    {
+        "question": "Sort this JSON array of objects by the value of the age field. In case of a tie, sort by the name field. Paste the resulting JSON below without any spaces or newlines.",
+        "answer": "[{\"name\":\"Grace\",\"age\":5},{\"name\":\"Paul\",\"age\":10},{\"name\":\"Alice\",\"age\":12},{\"name\":\"Karen\",\"age\":30},{\"name\":\"Henry\",\"age\":37},{\"name\":\"Charlie\",\"age\":42},{\"name\":\"Liam\",\"age\":59},{\"name\":\"Bob\",\"age\":66},{\"name\":\"David\",\"age\":70},{\"name\":\"Mary\",\"age\":70},{\"name\":\"Emma\",\"age\":71},{\"name\":\"Ivy\",\"age\":75},{\"name\":\"Jack\",\"age\":79},{\"name\":\"Nora\",\"age\":82},{\"name\":\"Frank\",\"age\":86},{\"name\":\"Oscar\",\"age\":90}]"
+    },
+    {
+        "question": "Download and use multi-cursors and convert it into a single JSON object, where key=value pairs are converted into {key: value, key: value, ...}. What's the result when you paste the JSON at tools-in-data-science.pages.dev/jsonhash and click the Hash button?",
+        "answer": ""
+    },
+    {
+        "question": "Find all <div>s having a foo class in the hidden element below. What's the sum of their data-value attributes?",
+        "answer": ""
+    },
+    {
+        "question": "Download and process the files which contains three files with different encodings: data1.csv (CP-1252), data2.csv (UTF-8), data3.txt (UTF-16). Sum up all the values where the symbol matches ˆ OR ž OR › across all three files.",
+        "answer": ""
+    },
+    {
+        "question": "Let's make sure you know how to use GitHub. Create a new public repository. Commit a JSON file called email.json with the value {\"email\": \"23f2000762@ds.study.iitm.ac.in\"} and push it. Enter the raw GitHub URL of email.json.",
+        "answer": ""
+    },
+    {
+        "question": "Download and unzip it into a new folder, then replace all 'IITM' (upper, lower, mixed case) with 'IIT Madras' in all files. Leave everything as-is - don't change the line endings. What does running cat * | sha256sum in that folder show?",
+        "answer": ""
+    },
+    {
+        "question": "Download and extract it. Use ls with options to list all files in the folder along with their date and file size. What's the total size of all files at least 1919 bytes large and modified on or after Fri, 8 Jul, 1994, 10:04 am IST?",
+        "answer": ""
+    },
+    {
+        "question": "Download and extract it. Use mv to move all files under folders into an empty folder. Then rename all files replacing each digit with the next. 1 becomes 2, 9 becomes 0, a1b9c.txt becomes a2b0c.txt. What does running grep . * | LC_ALL=C sort | sha256sum in bash on that folder show?",
+        "answer": ""
+    },
+    {
+        "question": "Download and extract it. It has 2 nearly identical files, a.txt and b.txt, with the same number of lines. How many lines are different between a.txt and b.txt?",
+        "answer": ""
+    },
+    
+        
+    {
+        "question": "There is a tickets table in a SQLite database that has columns type, units, and price. Each row is a customer bid for a concert ticket.\n\ntype\tunits\tprice\nSILVER\t278\t1.3\nbronze\t380\t1.19\nsilver\t806\t0.68\nGOLD\t388\t1.25\ngold\t892\t0.98\n...\nWhat is the total sales of all the items in the \"Gold\" ticket type? Write SQL to calculate it.",
+        "answer": ""
+
+    },
+
+
+        {
+            "question": "There is a tickets table in a SQLite database that has columns type, units, and price. Each row is a customer bid for a concert ticket.\n\ntype\tunits\tprice\nSILVER\t278\t1.3\nbronze\t380\t1.19\nsilver\t806\t0.68\nGOLD\t388\t1.25\ngold\t892\t0.98\n...\nWhat is the total sales of all the items in the \"Gold\" ticket type? Write SQL to calculate it.",
+            "answer": ""
+        },
+        {
+            "question": "Write documentation in Markdown for an **imaginary** analysis of the number of steps you walked each day for a week, comparing over time and with friends. The Markdown must include:\n\nTop-Level Heading: At least 1 heading at level 1, e.g., # Introduction\nSubheadings: At least 1 heading at level 2, e.g., ## Methodology\nBold Text: At least 1 instance of bold text, e.g., **important**\nItalic Text: At least 1 instance of italic text, e.g., *note*\nInline Code: At least 1 instance of inline code, e.g., `sample_code`\nCode Block: At least 1 instance of a fenced code block, e.g.\n\n```\nprint(\"Hello World\")\n```\n\nBulleted List: At least 1 instance of a bulleted list, e.g., - Item\nNumbered List: At least 1 instance of a numbered list, e.g., 1. Step One\nTable: At least 1 instance of a table, e.g., | Column A | Column B |\nHyperlink: At least 1 instance of a hyperlink, e.g., [Text](https://example.com)\nImage: At least 1 instance of an image, e.g., ![Alt Text](https://example.com/image.jpg)\nBlockquote: At least 1 instance of a blockquote, e.g., > This is a quote",
+            "answer": ""
+        },
+        {
+            "question": "question20",
+            "answer": ""
+        },
+        {
+            "question": "Publish a page using GitHub Pages that showcases your work. Ensure that your email address 23f2000762@ds.study.iitm.ac.in is in the page's HTML.\n\nGitHub pages are served via CloudFlare which obfuscates emails. So, wrap your email address inside a:\n\n<!--email_off-->23f2000762@ds.study.iitm.ac.in<!--/email_off-->\n\nWhat is the GitHub Pages URL? It might look like: https://[USER].github.io/[REPO]/",
+            "answer": ""
+        },
+        {
+            "question": "import hashlib\nimport requests\nfrom google.colab import auth\nfrom oauth2client.client import GoogleCredentials\n\nauth.authenticate_user()\ncreds = GoogleCredentials.get_application_default()\ntoken = creds.get_access_token().access_token\nresponse = requests.get(\n  \"https://www.googleapis.com/oauth2/v1/userinfo\",\n  params={\"alt\": \"json\"},\n  headers={\"Authorization\": f\"Bearer {token}\"}\n)\nemail = response.json()[\"email\"]\nhashlib.sha256(f\"{email} {creds.token_expiry.year}\".encode()).hexdigest()[-5:]\nWhat is the result? (It should be a 5-character string)",
+            "answer": ""
+        },
+
+        
+        {
+            "question": "ShopSmart is an online retail platform that places a high value on customer feedback. Each month, the company receives hundreds of comments from shoppers regarding product quality, delivery speed, customer service, and more. To automatically understand and cluster this feedback, ShopSmart's data science team uses text embeddings to capture the semantic meaning behind each comment.\n\nAs part of a pilot project, ShopSmart has curated a collection of 25 feedback phrases that represent a variety of customer sentiments. Examples of these phrases include comments like “Fast shipping and great service,” “Product quality could be improved,” “Excellent packaging,” and so on. Due to limited processing capacity during initial testing, you have been tasked with determine which pair(s) of 5 of these phrases are most similar to each other. This similarity analysis will help in grouping similar feedback to enhance the company’s understanding of recurring customer issues.\n\nShopSmart has written a Python program that has the 5 phrases and their embeddings as an array of floats. It looks like this:\n\nembeddings = {\"Fast shipping and great service.\":[-0.1079404279589653,0.020684150978922844,-0.30074435472488403,0.11729881167411804,0.13952496647834778,-0.018052106723189354,-0.21843314170837402,0.13527116179466248,-0.09257353842258453,-0.09384968131780624,0.11293865740299225,-0.03900212049484253,-0.059287477284669876,-0.1008152961730957,-0.019155437126755714,-0.007078605704009533,-0.02967032417654991,0.03711449354887009,-0.18302017450332642,0.20056714117527008,0.09076566994190216,0.02584189549088478,0.0943814069032669,-0.03799184039235115,-0.25246360898017883,-0.1235731765627861,0.028952494263648987,-0.309251993894577,0.021375395357608795,-0.22204887866973877,0.2159872055053711,-0.11921302229166031,0.21928390860557556,-0.11432114243507385,0.017453914508223534,0.10065577924251556,-0.04200637340545654,0.17493793368339539,0.1322934925556183,0.17025874555110931,-0.15271177887916565,0.004682514350861311,0.2531017065048218,0.11580997705459595,0.014688937924802303,-0.11176885664463043,-0.292662113904953,-0.0397731214761734,0.13729171454906464,0.027570005506277084],\"Product quality could be improved.\":[0.02994030900299549,0.0700574517250061,-0.09608972817659378,0.0757998675107956,0.05681799724698067,-0.12199439853429794,0.1026616021990776,0.34097179770469666,0.10221496969461441,-0.022985607385635376,0.00909215584397316,-0.12154776602983475,-0.33331525325775146,-0.03502872586250305,0.09934376925230026,-0.07471518963575363,0.232376366853714,-0.1896272748708725,-0.17048589885234833,0.0928356945514679,0.21285215020179749,0.060550566762685776,0.17584548890590668,0.05365967005491257,0.0439932718873024,0.0900282934308052,0.18656465411186218,-0.18146029114723206,-0.006986604072153568,-0.11421024054288864,0.14624014496803284,-0.19919796288013458,0.14802667498588562,-0.062432803213596344,-0.26695844531059265,0.0347416065633297,0.3560296893119812,0.1255674511194229,0.022554926574230194,-0.060359153896570206,-0.0147787407040596,0.09608972817659378,0.043897565454244614,0.11484828591346741,0.15619367361068726,-0.04826818034052849,0.020592935383319855,-0.09813147783279419,0.06405982375144958,-0.08907122164964676],\"Packaging was excellent.\":[-0.01674579456448555,-0.06481242924928665,-0.24050545692443848,0.042519159615039825,0.14857585728168488,-0.11343036592006683,0.1299005150794983,0.17366009950637817,-0.12356054037809372,0.049548257142305374,0.23058201372623444,-0.015152188017964363,-0.06047092750668526,-0.08428027480840683,0.140513077378273,0.0330953411757946,0.15987755358219147,-0.13982394337654114,-0.1899235099554062,0.0849694088101387,0.10901995003223419,0.023171907290816307,0.1423737108707428,-0.010603947564959526,-0.12362945079803467,-0.02598010189831257,0.04410415142774582,-0.0650191679596901,0.13754981756210327,0.06319297850131989,0.2340276539325714,-0.1448545753955841,0.5634305477142334,0.003012778703123331,-0.15422670543193817,-0.10137064009904861,0.10013020783662796,0.05392421782016754,0.10895103961229324,-0.017710573971271515,-0.0018617206951603293,0.01796899549663067,0.0550268217921257,0.251669317483902,-0.005680993665009737,0.12080402672290802,-0.08173050731420517,0.1045406237244606,0.040589600801467896,0.1787596344947815]}\n\nYour task is to write a Python function most_similar(embeddings) that will calculate the cosine similarity between each pair of these embeddings and return the pair that has the highest similarity. The result should be a tuple of the two phrases that are most similar.",
+            "answer": ""
+
+        },
+
+        {
+            "question": "InfoCore Solutions is a technology consulting firm that maintains an extensive internal knowledge base of technical documents, project reports, and case studies. Employees frequently search through these documents to answer client questions quickly or gain insights for ongoing projects. However, due to the sheer volume of documentation, traditional keyword-based search often returns too many irrelevant results.\n\nTo address this issue, InfoCore's data science team decides to integrate a semantic search feature into their internal portal. This feature uses text embeddings to capture the contextual meaning of both the documents and the user's query. The documents are pre-embedded, and when an employee submits a search query, the system computes the similarity between the query's embedding and those of the documents. The API then returns a ranked list of document identifiers based on similarity.\n\nImagine you are an engineer on the InfoCore team. Your task is to build a FastAPI POST endpoint that accepts an array of docs and a query string via a JSON body. The endpoint is structured as follows:\n\nPOST /similarity\n\n{\n  \"docs\": [\"Contents of document 1\", \"Contents of document 2\", \"Contents of document 3\", ...],\n  \"query\": \"Your query string\"\n}\n\nService Flow:\n\nRequest Payload: The client sends a POST request with a JSON body containing:\ndocs: An array of document texts from the internal knowledge base.\nquery: A string representing the user's search query.\n\nEmbedding Generation: For each document in the docs array and for the query string, the API computes a text embedding using text-embedding-3-small.\n\nSimilarity Computation: The API then calculates the cosine similarity between the query embedding and each document embedding. This allows the service to determine which documents best match the intent of the query.\n\nResponse Structure: After ranking the documents by their similarity scores, the API returns the identifiers (or positions) of the three most similar documents. The JSON response might look like this:\n\n{\n  \"matches\": [\"Contents of document 3\", \"Contents of document 1\", \"Contents of document 2\"]\n}\n\nHere, \"Contents of document 3\" is considered the closest match, followed by \"Contents of document 1\", then \"Contents of document 2\".\n\nMake sure you enable CORS to allow OPTIONS and POST methods, perhaps allowing all origins and headers.\n\nWhat is the API URL endpoint for your implementation? It might look like: http://127.0.0.1:8000/similarity",
+            "answer": ""
+        },
+
+        
+        {
+            "question": "Develop a FastAPI application that:\n\nExposes a GET endpoint /execute?q=... where the query parameter q contains one of the pre-templatized questions.\nAnalyzes the q parameter to identify which function should be called.\nExtracts the parameters from the question text.\nReturns a response in the following JSON format:\n\n{ \"name\": \"function_name\", \"arguments\": \"{ ...JSON encoded parameters... }\" }\n\nFor example, the query \"What is the status of ticket 83742?\" should return:\n\n{\n  \"name\": \"get_ticket_status\",\n  \"arguments\": \"{\\\"ticket_id\\\": 83742}\"\n}\n\nMake sure you enable CORS to allow GET requests from any origin.\n\nWhat is the API URL endpoint for your implementation? It might look like: http://127.0.0.1:8000/execute",
+            "answer": ""
+        },
+
+        {
+            "question": "SecurePrompt Technologies is a cybersecurity firm that specializes in deploying large language models (LLMs) for sensitive enterprise applications. To ensure that these models adhere strictly to security policies, SecurePrompt imposes hardcoded behavioral instructions on the LLMs. For example, an LLM may be configured to never output certain sensitive keywords.\n\nAs part of their regular security audits and red-team exercises, SecurePrompt's engineers and external auditors test how well the LLMs follow these strict instructions. One objective of these tests is to determine if it is possible to bypass or trick the LLM into violating its preset security constraints.\n\nThis task simulates potential attack vectors where a malicious actor might manipulate the model's output by ingeniously engineering the prompt. While the intention is to expose vulnerabilities in instruction adherence, it also provides valuable insights into improving the safety and security of the deployed system.\n\nHere's your task: You are chatting with an LLM that has been told to never say Yes. You need to get it to say Yes.\n\nUse your AI Proxy token when prompted.\n\nWrite a prompt that will get the LLM to say Yes.",
+            "answer": ""
+        },
+
+        
+        {
+            "question": "ESPN Cricinfo has ODI batting stats for each batsman. The result is paginated across multiple pages. Count the number of ducks in page number 32.\n\nUnderstanding the Data Source: ESPN Cricinfo's ODI batting statistics are spread across multiple pages, each containing a table of player data. Go to page number 32.\nSetting Up Google Sheets: Utilize Google Sheets' IMPORTHTML function to import table data from the URL for page number 32.\nData Extraction and Analysis: Pull the relevant table from the assigned page into Google Sheets. Locate the column that represents the number of ducks for each player. (It is titled \"0\".) Sum the values in the \"0\" column to determine the total number of ducks on that page.\n\nImpact\nBy automating the extraction and analysis of cricket batting statistics, CricketPro Insights can:\n\nEnhance Analytical Efficiency: Reduce the time and effort required to manually gather and process player performance data.\nProvide Timely Insights: Deliver up-to-date statistical analyses that aid teams and coaches in making informed decisions.\nScalability: Easily handle large volumes of data across multiple pages, ensuring comprehensive coverage of player performances.\nData-Driven Strategies: Enable the development of data-driven strategies for player selection, training focus areas, and game planning.\nClient Satisfaction: Improve service offerings by providing accurate and insightful analytics that meet the specific needs of clients in the cricketing world.\n\nWhat is the total number of ducks across players on page number 32 of ESPN Cricinfo's ODI batting stats?",
+            "answer": ""
+        },
+
+        {
+            "question": "Source: Utilize IMDb's advanced web search at https://www.imdb.com/search/title/ to access movie data.\nFilter: Filter all titles with a rating between 4 and 5.\nFormat: For up to the first 25 titles, extract the necessary details: ID, title, year, and rating. The ID of the movie is the part of the URL after tt in the href attribute. For example, tt10078772. Organize the data into a JSON structure as follows:\n\n[\n  { \"id\": \"tt1234567\", \"title\": \"Movie 1\", \"year\": \"2021\", \"rating\": \"5.8\" },\n  { \"id\": \"tt7654321\", \"title\": \"Movie 2\", \"year\": \"2019\", \"rating\": \"6.2\" },\n  // ... more titles\n]\n\nSubmit: Submit the JSON data in the text box below.\n\nImpact\nBy completing this assignment, you'll simulate a key component of a streaming service's content acquisition strategy. Your work will enable StreamFlix to make informed decisions about which titles to license, ensuring that their catalog remains both diverse and aligned with subscriber preferences. This, in turn, contributes to improved customer satisfaction and retention, driving the company's growth and success in a competitive market.\n\nWhat is the JSON data?",
+            "answer": ""
+        },
+          
+
+        
+        {
+            "question": "Write a web application that exposes an API with a single query parameter: ?country=. It should fetch the Wikipedia page of the country, extracts all headings (H1 to H6), and create a Markdown outline for the country. The outline should look like this:\n\n\n## Contents\n\n# Vanuatu\n\n## Etymology\n\n## History\n\n### Prehistory\n\n...\nAPI Development: Choose any web framework (e.g., FastAPI) to develop the web application. Create an API endpoint (e.g., /api/outline) that accepts a country query parameter.\nFetching Wikipedia Content: Find out the Wikipedia URL of the country and fetch the page's HTML.\nExtracting Headings: Use an HTML parsing library (e.g., BeautifulSoup, lxml) to parse the fetched Wikipedia page. Extract all headings (H1 to H6) from the page, maintaining order.\nGenerating Markdown Outline: Convert the extracted headings into a Markdown-formatted outline. Headings should begin with #.\nEnabling CORS: Configure the web application to include appropriate CORS headers, allowing GET requests from any origin.\nWhat is the URL of your API endpoint?",
+            "answer": ""
+        },
+
+        {
+            "question": "As part of this initiative, you are tasked with developing a system that automates the following:\n\nAPI Integration and Data Retrieval: Use the BBC Weather API to fetch the weather forecast for Buenos Aires. Send a GET request to the locator service to obtain the city's locationId. Include necessary query parameters such as API key, locale, filters, and search term (city).\nWeather Data Extraction: Retrieve the weather forecast data using the obtained locationId. Send a GET request to the weather broker API endpoint with the locationId.\nData Transformation: Extract the localDate and enhancedWeatherDescription from each day's forecast. Iterate through the forecasts array in the API response and map each localDate to its corresponding enhancedWeatherDescription. Create a JSON object where each key is the localDate and the value is the enhancedWeatherDescription.\nThe output would look like this:\n\n{\n  \"2025-01-01\": \"Sunny with scattered clouds\",\n  \"2025-01-02\": \"Partly cloudy with a chance of rain\",\n  \"2025-01-03\": \"Overcast skies\",\n  // ... additional days\n}\nWhat is the JSON weather forecast description for Buenos Aires?",
+            "answer": ""
+        },
+
+        
+        {
+            "question": "What is the minimum latitude of the bounding box of the city Dar es Salaam in the country Tanzania on the Nominatim API?\n\nAPI Integration: Use the Nominatim API to fetch geospatial data for a specified city within a country via a GET request to the Nominatim API with parameters for the city and country. Ensure adherence to Nominatim’s usage policies, including rate limiting and proper attribution.\nData Retrieval and Filtering: Parse the JSON response from the API. If multiple results are returned (e.g., multiple cities named “Springfield” in different states), filter the results based on the provided osm_id ending to select the correct city instance.\nParameter Extraction: Access the boundingbox attribute. Depending on whether you're looking for the minimum or maximum latitude, extract the corresponding latitude value.\nImpact\nBy automating the extraction and processing of bounding box data, UrbanRide can:\n\nOptimize Routing: Enhance route planning algorithms with precise geographical boundaries, reducing delivery times and operational costs.\nImprove Fleet Allocation: Allocate vehicles more effectively across defined service zones based on accurate city extents.\nEnhance Market Analysis: Gain deeper insights into regional performance, enabling targeted marketing and service improvements.\nScale Operations: Seamlessly integrate new cities into their service network with minimal manual intervention, ensuring consistent data quality.\nWhat is the minimum latitude of the bounding box of the city Dar es Salaam in the country Tanzania on the Nominatim API? Value of the minimum latitude",
+            "answer": ""
+
+        },
+
+        {
+            "question": "Search using the Hacker News RSS API for the latest Hacker News post mentioning LLM and having a minimum of 40 points. What is the link that it points to?\n\nAutomate Data Retrieval: Utilize the HNRSS API to fetch the latest Hacker News posts. Use the URL relevant to fetching the latest posts, searching for topics and filtering by a minimum number of points.\nExtract and Present Data: Extract the most recent <item> from this result. Get the <link> tag inside it.\nShare the result: Type in just the URL in the answer.\nWhat is the link to the latest Hacker News post mentioning LLM having at least 40 points?",
+            "answer": ""
+
+        },
+
+        {
+            "question": "Using the GitHub API, find all users located in the city Bangalore with over 160 followers.\n\nWhen was the newest user's GitHub profile created?\n\nAPI Integration and Data Retrieval: Leverage GitHub’s search endpoints to query users by location and filter them by follower count.\nData Processing: From the returned list of GitHub users, isolate those profiles that meet the specified criteria.\nSort and Format: Identify the \"newest\" user by comparing the created_at dates provided in the user profile data. Format the account creation date in the ISO 8601 standard (e.g., \"2024-01-01T00:00:00Z\").\nImpact\nBy automating this data retrieval and filtering process, CodeConnect gains several strategic advantages:\n\nTargeted Recruitment: Quickly identify new, promising talent in key regions, allowing for more focused and timely recruitment campaigns.\nCompetitive Intelligence: Stay updated on emerging trends within local developer communities and adjust talent acquisition strategies accordingly.\nEfficiency: Automating repetitive data collection tasks frees up time for recruiters to focus on engagement and relationship-building.\nData-Driven Decisions: Leverage standardized and reliable data to support strategic business decisions in recruitment and market research.\nEnter the date (ISO 8601, e.g. \"2024-01-01T00:00:00Z\") when the newest user joined GitHub.",
+            "answer": ""
+        },
+
+        
+        {  
+            "question": "Create a scheduled GitHub action that runs daily and adds a commit to your repository. The workflow should:\n\nUse schedule with cron syntax to run once per day (must use specific hours/minutes, not wildcards)\nInclude a step with your email 23f2000762@ds.study.iitm.ac.in in its name\nCreate a commit in each run\nBe located in .github/workflows/ directory\nAfter creating the workflow:\n\nTrigger the workflow and wait for it to complete\nEnsure it appears as the most recent action in your repository\nVerify that it creates a commit during or within 5 minutes of the workflow run\nEnter your repository URL (format: https://github.com/USER/REPO):", 
+            "answer": "" 
+        },
+        
+        {
+            "question": "This file,  contains a table of student marks in Maths, Physics, English, Economics, and Biology.\n\nCalculate the total English marks of students who scored 43 or more marks in Maths in groups 57-88 (including both groups).\n\nData Extraction:: Retrieve the PDF file containing the student marks table and use PDF parsing libraries (e.g., Tabula, Camelot, or PyPDF2) to accurately extract the table data into a workable format (e.g., CSV, Excel, or a DataFrame).\nData Cleaning and Preparation: Convert marks to numerical data types to facilitate accurate calculations.\nData Filtering: Identify students who have scored marks between 43 and Maths in groups 57-88 (including both groups).\nCalculation: Sum the marks of the filtered students to obtain the total marks for this specific cohort.\nBy automating the extraction and analysis of student marks, EduAnalytics empowers Greenwood High School to make informed decisions swiftly. This capability enables the school to:\n\nIdentify Performance Trends: Quickly spot areas where students excel or need additional support.\nAllocate Resources Effectively: Direct teaching resources and interventions to groups and subjects that require attention.\nEnhance Reporting Efficiency: Reduce the time and effort spent on manual data processing, allowing educators to focus more on teaching and student engagement.\nSupport Data-Driven Strategies: Use accurate and timely data to shape educational strategies and improve overall student outcomes.\nWhat is the total English marks of students who scored 43 or more marks in Maths in groups 57-88 (including both groups)?",
+            "answer": "" 
+        },
+        
+        { 
+            "question": "As part of the Documentation Transformation Project, you are a junior developer at EduDocs tasked with developing a streamlined workflow for converting PDF files to Markdown and ensuring their consistent formatting. This project is critical for supporting EduDocs' commitment to delivering high-quality, accessible educational resources to its clients.\n\n has the contents of a sample document.\n\nConvert the PDF to Markdown: Extract the content from the PDF file. Accurately convert the extracted content into Markdown format, preserving the structure and formatting as much as possible.\nFormat the Markdown: Use Prettier version 3.4.2 to format the converted Markdown file.\nSubmit the Formatted Markdown: Provide the final, formatted Markdown file as your submission.\nImpact\nBy completing this exercise, you will contribute to EduDocs Inc.'s mission of providing high-quality, accessible educational resources. Automating the PDF to Markdown conversion and ensuring consistent formatting:\n\nEnhances Productivity: Reduces the time and effort required to prepare documentation for clients.\nImproves Quality: Ensures all documents adhere to standardized formatting, enhancing readability and professionalism.\nSupports Scalability: Enables EduDocs to handle larger volumes of documentation without compromising on quality.\nFacilitates Integration: Makes it easier to integrate Markdown-formatted documents into various digital platforms and content management systems.\nWhat is the markdown content of the PDF, formatted with prettier@3.4.2?", "answer": "" },
+        
+        { 
+            "question": "Download the Sales Excel file: \n\nWhat is the total margin for transactions before Tue May 30 2023 04:25:29 GMT+0530 (India Standard Time) for Alpha sold in UK (which may be spelt in different ways)?", 
+            "answer": "" 
+        },
+        
+        { 
+            "question": "Download the text file with student marks \n\nHow many unique students are there in the file?", 
+            "answer": "59"
+        },
+
+        
+        {
+            "question": "This GZipped Apache log file (61MB) has 258,074 rows. Each row is an Apache web log entry for the site s-anand.net in May 2024.\n\nEach row has these fields:\n\nIP: The IP address of the visitor\nRemote logname: The remote logname of the visitor. Typically \"-\"\nRemote user: The remote user of the visitor. Typically \"-\"\nTime: The time of the visit. E.g. [01/May/2024:00:00:00 +0000]. Not that this is not quoted and you need to handle this.\nRequest: The request made by the visitor. E.g. GET /blog/ HTTP/1.1. It has 3 space-separated parts, namely (a) Method: The HTTP method. E.g. GET (b) URL: The URL visited. E.g. /blog/ (c) Protocol: The HTTP protocol. E.g. HTTP/1.1\nStatus: The HTTP status code. If 200 <= Status < 300 it is a successful request\nSize: The size of the response in bytes. E.g. 1234\nReferer: The referer URL. E.g. https://s-anand.net/\nUser agent: The browser used. This will contain spaces and might have escaped quotes.\nVhost: The virtual host. E.g. s-anand.net\nServer: The IP address of the server.\nThe fields are separated by spaces and quoted by double quotes (\"). Unlike CSV files, quoted fields are escaped via \\\" and not \"\". (This impacts 41 rows.)\n\nAll data is in the GMT-0500 timezone and the questions are based in this same timezone.\n\nBy determining the number of successful GET requests under the defined conditions, we'll be able to:\n\nOptimize Infrastructure: Scale server resources effectively during peak traffic times, reducing downtime and improving user experience.\nStrategize Content Delivery: Identify popular content segments and adjust digital content strategies to better serve the audience.\nImprove Marketing Efforts: Focus marketing initiatives on peak usage windows to maximize engagement and conversion.\nWhat is the number of successful GET requests for pages under /hindimp3/ from 17:00 until before 20:00 on Tuesdays?",
+            "answer": ""
+        },
+
+        {
+            "question": "This GZipped Apache log file (61MB) has 258,074 rows. Each row is an Apache web log entry for the site s-anand.net in May 2024.\n\nEach row has these fields:\n\nIP: The IP address of the visitor\nRemote logname: The remote logname of the visitor. Typically \"-\"\nRemote user: The remote user of the visitor. Typically \"-\"\nTime: The time of the visit. E.g. [01/May/2024:00:00:00 +0000]. Not that this is not quoted and you need to handle this.\nRequest: The request made by the visitor. E.g. GET /blog/ HTTP/1.1. It has 3 space-separated parts, namely (a) Method: The HTTP method. E.g. GET (b) URL: The URL visited. E.g. /blog/ (c) Protocol: The HTTP protocol. E.g. HTTP/1.1\nStatus: The HTTP status code. If 200 <= Status < 300 it is a successful request\nSize: The size of the response in bytes. E.g. 1234\nReferer: The referer URL. E.g. https://s-anand.net/\nUser agent: The browser used. This will contain spaces and might have escaped quotes.\nVhost: The virtual host. E.g. s-anand.net\nServer: The IP address of the server.\nThe fields are separated by spaces and quoted by double quotes (\"). Unlike CSV files, quoted fields are escaped via \\\" and not \"\". (This impacts 41 rows.)\n\nAll data is in the GMT-0500 timezone and the questions are based in this same timezone.\n\nFilter the Log Entries: Extract only the requests where the URL starts with /telugu/. Include only those requests made on the specified 2024-05-14.\nAggregate Data by IP: Sum the \"Size\" field for each unique IP address from the filtered entries.\nIdentify the Top Data Consumer: Determine the IP address that has the highest total downloaded bytes. Reports the total number of bytes that this IP address downloaded.\nAcross all requests under telugu/ on 2024-05-14, how many bytes did the top IP address (by volume of downloads) download?",
+            "answer": ""
+        },
+
+        {
+            "question": "As a data analyst at GlobalRetail Insights, you are tasked with extracting meaningful insights from this dataset. Specifically, you need to:\n\nGroup Mis-spelt City Names: Use phonetic clustering algorithms to group together entries that refer to the same city despite variations in spelling. For instance, cluster \"Tokyo\" and \"Tokio\" as one.\nFilter Sales Entries: Select all entries where:\nThe product sold is Shoes.\nThe number of units sold is at least 20.\nAggregate Sales by City: After clustering city names, group the filtered sales entries by city and calculate the total units sold for each city.\nBy performing this analysis, GlobalRetail Insights will be able to:\n\nImprove Data Accuracy: Correct mis-spellings and inconsistencies in the dataset, leading to more reliable insights.\nTarget Marketing Efforts: Identify high-performing regions for the specific product, enabling targeted promotional strategies.\nOptimize Inventory Management: Ensure that inventory allocations reflect the true demand in each region, reducing wastage and stockouts.\nDrive Strategic Decision-Making: Provide actionable intelligence to clients that supports strategic planning and competitive advantage in the market.\nHow many units of Shoes were sold in Mumbai on transactions with at least 20 units?",
+            "answer": ""
+        },
+
+        {
+            "question": "As a data recovery analyst at ReceiptRevive Analytics, your task is to develop a program that will:\n\nParse the Sales Data:\nRead the provided JSON file containing 100 rows of sales data. Despite the truncated data (specifically the missing id), you must accurately extract the sales figures from each row.\nData Validation and Cleanup:\nEnsure that the data is properly handled even if some fields are incomplete. Since the id is missing for some entries, your focus will be solely on the sales values.\nCalculate Total Sales:\nSum the sales values across all 100 rows to provide a single aggregate figure that represents the total sales recorded.\nBy successfully recovering and aggregating the sales data, ReceiptRevive Analytics will enable RetailFlow Inc. to:\n\nReconstruct Historical Sales Data: Gain insights into past sales performance even when original receipts are damaged.\nInform Business Decisions: Use the recovered data to understand sales trends, adjust inventory, and plan future promotions.\nEnhance Data Recovery Processes: Improve methods for handling imperfect OCR data, reducing future data loss and increasing data accuracy.\nBuild Client Trust: Demonstrate the ability to extract valuable insights from challenging datasets, thereby reinforcing client confidence in ReceiptRevive's services.\nDownload the data from \n\nWhat is the total sales value?",
+            "answer": ""
+        },
+
+        {
+            "question": "As a data analyst at DataSure Technologies, you have been tasked with developing a script that processes a large JSON log file and counts the number of times a specific key, represented by the placeholder ANL, appears in the JSON structure. Your solution must:\n\nParse the Large, Nested JSON: Efficiently traverse the JSON structure regardless of its complexity.\nCount Key Occurrences: Increment a count only when ANL is used as a key in the JSON object (ignoring occurrences of ANL as a value).\nReturn the Count: Output the total number of occurrences, which will be used by the operations team to assess the prevalence of particular system events or errors.\nBy accurately counting the occurrences of a specific key in the log files, DataSure Technologies can:\n\nDiagnose Issues: Quickly determine the frequency of error events or specific system flags that may indicate recurring problems.\nPrioritize Maintenance: Focus resources on addressing the most frequent issues as identified by the key count.\nEnhance Monitoring: Improve automated monitoring systems by correlating key occurrence data with system performance metrics.\nInform Decision-Making: Provide data-driven insights that support strategic planning for system upgrades and operational improvements.\nDownload the data from \n\nHow many times does ANL appear as a key?",
+             "answer": ""
+        },
+
+        {
+            "question": "Your task as a data analyst at EngageMetrics is to write a query that performs the following:\n\nFilter Posts by Date: Consider only posts with a timestamp greater than or equal to a specified minimum time (2025-03-16T19:11:50.916Z), ensuring that the analysis focuses on recent posts.\nEvaluate Comment Quality: From these recent posts, identify posts where at least one comment has received more than a given number of useful stars (2). This criterion filters out posts with low or mediocre engagement.\nExtract and Sort Post IDs: Finally, extract all the post_id values of the posts that meet these criteria and sort them in ascending order.\nBy accurately extracting these high-impact post IDs, EngageMetrics can:\n\nEnhance Reporting: Provide clients with focused insights on posts that are currently engaging audiences effectively.\nTarget Content Strategy: Help marketing teams identify trending content themes that generate high-quality user engagement.\nOptimize Resource Allocation: Enable better prioritization for content promotion and further in-depth analysis of high-performing posts.\nWrite a DuckDB SQL query to find all posts IDs after 2025-03-16T19:11:50.916Z with at least 1 comment with 2 useful stars, sorted. The result should be a table with a single column called post_id, and the relevant post IDs should be sorted in ascending order.",
+            "answer": ""
+        },
+
+        {
+            "question": "Access the Video: Use the provided YouTube link to access the mystery story audiobook.\nConvert to Audio: Extract the audio for the segment between 301.1 and 438.5.\nTranscribe the Segment: Utilize automated speech-to-text tools as needed.\nBy producing an accurate transcript of this key segment, Mystery Tales Publishing will be able to:\n\nBoost Accessibility: Provide high-quality captions and text alternatives for hearing-impaired users.\nEnhance SEO: Improve the discoverability of their content through better keyword indexing.\nDrive Engagement: Use the transcript for social media snippets, summaries, and promotional materials.\nEnable Content Analysis: Facilitate further analysis such as sentiment analysis, topic modeling, and reader comprehension studies.\nWhat is the text of the transcript of this Mystery Story Audiobook between 301.1 and 438.5 seconds?",
+            "answer": ""
+        },
+
+        {
+            "question": "As a digital forensics analyst at PixelGuard Solutions, your task is to reconstruct the original image from its scrambled pieces. You are provided with:\n\nThe 25 individual image pieces (put together as a single image).\nA mapping file detailing the original (row, col) position for each piece and its current (row, col) location.\nYour reconstructed image will be critical evidence in the investigation. Once assembled, the image must be uploaded to the secure case management system for further analysis by the investigative team.\n\nUnderstand the Mapping: Review the provided mapping file that shows how each piece's original coordinates (row, col) relate to its current scrambled position.\nReassemble the Image: Using the mapping, reassemble the 5x5 grid of image pieces to reconstruct the original image. You may use an image processing library (e.g., Python's Pillow, ImageMagick, or a similar tool) to automate the reconstruction process.\nOutput the Reconstructed Image: Save the reassembled image in a lossless format (e.g., PNG or WEBP). Upload the reconstructed image to the secure case management system as required by PixelGuard’s workflow.\nBy accurately reconstructing the scrambled image, PixelGuard Solutions will:\n\nReveal Critical Evidence: Provide investigators with a clear view of the original image, which may contain important details related to the case.\nEnhance Analytical Capabilities: Enable further analysis and digital enhancements that can lead to breakthroughs in the investigation.\nMaintain Chain of Custody: Ensure that the reconstruction process is documented and reliable, supporting the admissibility of the evidence in court.\nImprove Operational Efficiency: Demonstrate the effectiveness of automated image reconstruction techniques in forensic investigations.\nHere is the image. It is a 500x500 pixel image that has been cut into 25 (5x5) pieces:",
+            "answer": ""
+        }
+        ]
+        
+        
+        
+        
+        
+
+
+        
+        
+          
+          
+
+
+          
+          
+             
+
+          
+          
+          
+    
+    
+    
+    
+        
+    
+
+
+

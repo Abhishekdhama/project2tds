@@ -1,0 +1,9 @@
+fastapi
+numpy
+openai >=1.0.0
+python-dotenv
+pandas
+pydantic
+requests
+python-multipart
+uvicorn
